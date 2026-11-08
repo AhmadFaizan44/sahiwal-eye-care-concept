@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sahiwal Eye Care, Dr M. Majid Mahmood (concept)</title>
+  <meta name="description" content="Concept landing page for Sahiwal Eye Care, the clinic of eye specialist Dr M. Majid Mahmood in Farid Town, Sahiwal.">
+  <!-- Unsolicited prototype: stays out of search until the clinic approves it. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="#top" aria-label="Sahiwal Eye Care, back to top">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M4 24c5.5-8.5 12.4-12.8 20-12.8S38.5 15.5 44 24c-5.5 8.5-12.4 12.8-20 12.8S9.5 32.5 4 24Z" />
+        <circle cx="24" cy="24" r="7.2" />
+        <circle class="brand-pupil" cx="24" cy="24" r="3" />
+      </svg>
+      <span class="brand-text"><strong>Sahiwal Eye Care</strong><span>Dr M. Majid Mahmood</span></span>
+    </a>
+    <a class="btn btn-blue" data-whatsapp target="_blank" rel="noreferrer">Book<span class="wide-only">&nbsp;on WhatsApp</span></a>
+  </header>
+
+  <main id="top">
+    <section class="story" id="story" aria-label="How cataract surgery works">
+      <div class="stage" id="stage">
+        <canvas id="scene" aria-hidden="true"></canvas>
+        <img class="poster" id="poster" src="img/poster.webp" alt="Eye examination equipment at Sahiwal Eye Care" hidden>
+
+        <div class="beat is-first" data-beat="0">
+          <h1 class="display">Better eyes for a <em>better life</em></h1>
+          <p class="lead">Cataract and laser surgery with Dr M. Majid Mahmood at Sahiwal Eye Care, Farid Town, Sahiwal.</p>
+          <div class="beat-actions">
+            <a class="btn btn-white" data-whatsapp target="_blank" rel="noreferrer">Book on WhatsApp</a>
+            <a class="btn btn-line" href="tel:+923326515200">Call<span class="wide-only">&nbsp;0332 6515200</span></a>
+          </div>
+          <p class="rating"><strong>4.9</strong> on Google from 477 reviews</p>
+          <p class="touch-hint">Swipe to turn the eye. Scroll to look inside.</p>
+        </div>
+
+        <div class="beat" data-beat="1">
+          <h2 class="display">The cornea</h2>
+          <p class="lead">The clear window at the front of the eye. Light comes in here first.</p>
+        </div>
+        <div class="beat" data-beat="2">
+          <h2 class="display">A cloudy lens</h2>
+          <p class="lead">Behind the coloured iris sits a lens. When it clouds over with age, that is a cataract, and the world turns hazy.</p>
+        </div>
+        <div class="beat" data-beat="3">
+          <h2 class="display">Phaco surgery</h2>
+          <p class="lead">Through a tiny opening, the cloudy lens is broken up with ultrasound and gently removed.</p>
+        </div>
+        <div class="beat" data-beat="4">
+          <h2 class="display">A clear new lens</h2>
+          <p class="lead">A folded artificial lens opens inside the eye and takes the old lens's place.</p>
+        </div>
+
+        <div class="beat" data-beat="5">
+          <h2 class="display">Cataract surgery</h2>
+          <p class="lead">Dr Majid is a phaco surgeon. Eye surgery is the treatment patients mention most in his Google reviews.</p>
+        </div>
+        <div class="beat" data-beat="6">
+          <h2 class="display">Laser treatment</h2>
+          <p class="lead">Laser procedures for the eye, from a surgeon trained in both laser and phaco.</p>
+        </div>
+        <div class="beat" data-beat="7">
+          <h2 class="display">Eye pressure checks</h2>
+          <p class="lead">High pressure inside the eye can harm sight without any pain. A quick check finds it early.</p>
+        </div>
+        <div class="beat" data-beat="8">
+          <h2 class="display">Detailed eye scans</h2>
+          <p class="lead">Modern machines look at the inside of the eye in fine detail.</p>
+        </div>
+        <div class="beat" data-beat="9">
+          <h2 class="display">Eye tests for glasses</h2>
+          <p class="lead">One patient wrote that their eyes were checked twice, on three kinds of machine.</p>
+        </div>
+
+        <p class="hint" id="hint">Drag to turn the eye. Scroll to look inside.</p>
+        <ol class="dots" id="dots" aria-hidden="true"></ol>
+      </div>
+    </section>
+
+    <section class="doctor" aria-labelledby="doctor-title">
+      <figure class="doctor-image">
+        <img src="img/sign.webp" alt="The Sahiwal Eye Care sign lit up at night, with Dr M. Majid Mahmood's name and qualifications" loading="lazy" width="1700" height="1275">
+      </figure>
+      <div class="doctor-copy">
+        <h2 class="display" id="doctor-title">Dr M. Majid Mahmood</h2>
+        <p class="lead">Your surgeon: an eye specialist trained in both laser and phaco surgery.</p>
+        <ul class="degrees">
+          <li>MBBS</li>
+          <li>MRCS (Edinburgh, UK)</li>
+          <li>DOMS</li>
+          <li>FCPS</li>
+        </ul>
+        <p class="note">Qualifications as shown on the clinic's sign.</p>
+      </div>
+    </section>
+
+    <section class="clinic" aria-labelledby="clinic-title">
+      <div class="clinic-head">
+        <h2 class="display" id="clinic-title">A clinic built around your eyes</h2>
+        <p class="lead">Examination rooms, modern equipment and a calm place to wait, in Farid Town.</p>
+      </div>
+      <div class="clinic-grid" id="clinic-grid"></div>
+    </section>
+
+    <section class="proof" aria-labelledby="proof-title">
+      <div class="proof-head">
+        <p class="proof-number" aria-hidden="true">477</p>
+        <h2 class="display" id="proof-title">Google reviews, averaging 4.9 stars</h2>
+      </div>
+      <ul class="proof-list">
+        <li><strong>30</strong> praise the cooperative staff</li>
+        <li><strong>20</strong> talk about eye surgery</li>
+        <li><strong>16</strong> name Dr Majid himself</li>
+      </ul>
+      <blockquote>
+        <p>&ldquo;The doctor has excellent manners, listens patiently, and answers every question thoroughly.&rdquo;</p>
+        <footer>Google review, October 2026</footer>
+      </blockquote>
+    </section>
+
+    <section class="book" aria-labelledby="book-title">
+      <div>
+        <h2 class="display" id="book-title">See clearly again</h2>
+        <p class="lead">Send a message on WhatsApp to book a check-up, or ask about cataract surgery before you come in.</p>
+        <div class="beat-actions">
+          <a class="btn btn-white" data-whatsapp target="_blank" rel="noreferrer">Book on WhatsApp</a>
+          <a class="btn btn-line" href="tel:+923326515200">Call 0332 6515200</a>
+        </div>
+      </div>
+      <dl class="hours">
+        <div>
+          <dt>Monday to Saturday</dt>
+          <dd>8:00 AM to 7:00 PM</dd>
+        </div>
+        <div>
+          <dt>Sunday</dt>
+          <dd>3:00 PM to 7:00 PM</dd>
+        </div>
+        <div>
+          <dt>Find us</dt>
+          <dd><a href="https://www.google.com/maps/place/Dr+Majid+Eye+Specialist(Sahiwal+Eye+Care)/@30.6741997,73.0881708,17z" target="_blank" rel="noreferrer">168-E, Scheme No. 2, near the water filtration plant, Farid Town, Sahiwal</a></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Concept prototype for Sahiwal Eye Care. Not an official site. Details come from the clinic's public Google listing, its sign and its posted timings, and should be confirmed by the clinic. The 3D eye is an illustration, not medical advice.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
